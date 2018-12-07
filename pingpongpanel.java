@@ -25,11 +25,11 @@ public class pingpongpanel extends JPanel{
 		x.setColor(Color.WHITE); 
 		x.fillRect(0,0,1280,720); 
 	
-		x.setColor(Color.RED); 
+		x.setColor(Color.GREEN); 
 		x.fillRect(0,intYL,10,100);
 		x.fillRect(1270,intYR,10,100);
 		
-		x.setColor(Color.BLUE); 
+		x.setColor(Color.BLACK); 
 		x.fillOval(intX,intY,25,25);
 		
 		if(intX == 0 && intY >= intYL && intY <= intYL+100){
